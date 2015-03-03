@@ -1,11 +1,49 @@
-Simple Explorer
-===========
+#File Explorer
 
-Simple Explorer is a open source file explorer. You can help to translate this app at [Crowdin](https://crowdin.com/project/simpleexplorer).
+File Explorer is based on [SimpleExplorer](https://github.com/DF1E/SimpleExplorer) 
 
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/simpleexplorer/localized.png)](https://crowdin.com/project/simpleexplorer)
+File Explorer functions as a normal file explorer, as well as Root Explorer (Root Required Obviously)
 
-####License
+#Why Should You Use File-Explorer?
+
++ It is based on awesome [SimpleExplorer](https://github.com/DF1E/SimpleExplorer) by [DF1E](https://github.com/DF1E) 
++ Root Explorer
++ Awesome Features
++ Open Source (Free Forever? Maybe, Depends on development)
++ User Flexibility
++ Material Design
++ Responsive
+
+
+#Soooo, If this is based on SimpleExplorer, What makes it different from that?
+
+See, Although I agree that the design is based on SimpleExplorer, and with full credits [to the maker](https://github.com/DF1E),
+The app has many more features and has been worked on improvements for smoother functioning and better root access. More features and improvements are planned for the coming days, weeks and months. 
+
+Click [here](https://github.com/maysleazy/File-Explorer#changes-in-the-current-version) for changes in the current version
+
+
+#License
+
+##maysleazy's License
+````
+Copyright 2015 maysleazy
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+````
+
+
+##D1FE's License
 ````
 Copyright 2013 - 2015 Daniel F.
 
@@ -27,40 +65,28 @@ MA  02110-1301, USA.
 More info under: https://www.gnu.org/licenses/gpl-3.0
 ````
 
-####Credits
-+ [Zedd.](https://forum.xda-developers.com/member.php?u=4112951) for the handsome icons
+#Credits
+
++ [DF1E](https://github.com/DF1E/SimpleExplorer) For Simple Explorer
++ [Zedd.](https://forum.xda-developers.com/member.php?u=4112951) for the icons
 + [Android-ViewPagerIndicator](https://github.com/JakeWharton/Android-ViewPagerIndicator) by JakeWharton
 + [FloatingActionButton](https://github.com/FaizMalkani/FloatingActionButton) by FaizMalkani
 + [RootTools](https://github.com/Stericson/RootTools) library
 
-####Thanks for translations (XDA, Getlocalization and Crowdin)
-+ bosnian -muamers
-+ brazil - fabiobatera
-+ bulgarian - drkalo
-+ chinese (traditional) - twbetep
-+ chinese (simplified) - taocp
-+ czech - svetlemodry
-+ dutch - kaizokan
-+ english - youngbrod
-+ finnish - mary-kate
-+ french - logpc
-+ german - DF1E
-+ hungarian - Wechy77
-+ italian - mirhl, bovirus
-+ japanese - naofum
-+ persian - aliashell
-+ polish - SealQ
-+ portuguese - smarquespt
-+ romanian - Silviumik
-+ russian -lexaleon
-+ slovakian - pylerSM
-+ spanish - youngbrod
-+ swedish - boss302
-+ thai - atlasslusho
-+ turkish - adamslast
-+ ukrainian - DMDP
-+ vietnamese - hoangnguyen
-+ [More translators](https://crowdin.com/project/simpleexplorer/settings#members)
 
-####Discussion Thread
-http://forum.xda-developers.com/showthread.php?t=2330864
+#Changes in the current version
+
+v. 1.0
+````
++ Minor bug fixes. FYI -I Read the code, added some, deleted some to make it better.
++ New Icon, maybe a placeholder for now.
++ Snappier, more responsive
++ Changed some files in the root library
++ Fixed Crashes on giving root permissions for some Custom Roms.
++ More to come in the future? Hell yeah!
+
+````
+
+#Regarding Issues and Pull Requests
+
+Well, new ideas and bug reports are always welcome :)
