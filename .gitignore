@@ -1,0 +1,55 @@
+# Eclipse
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+gen/
+proguard/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.classpath
+.refactorings
+.settings/
+.loadpath
+lint.xml
+
+# Android Studio
+*.jks
+.DS_Store
+/local.properties
+/.idea/workspace.xml
+/build
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Local configuration file (sdk path, etc)
+local.properties
+gradle.properties
+.directory
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Gradle
+build
+.gradle

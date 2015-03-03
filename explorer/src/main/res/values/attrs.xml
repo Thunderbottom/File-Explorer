@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- drawables -->
+    <attr name="action_copy" format="reference" />
+    <attr name="action_cut" format="reference" />
+    <attr name="action_edit" format="reference" />
+    <attr name="action_info" format="reference" />
+    <attr name="action_paste" format="reference" />
+    <attr name="action_bookmark" format="reference" />
+    <attr name="action_delete" format="reference" />
+    <attr name="action_remove" format="reference" />
+    <attr name="action_search" format="reference" />
+    <attr name="action_share" format="reference" />
+    <attr name="action_zip" format="reference" />
+    <attr name="action_multi" format="reference" />
+    <attr name="ic_bookmark" format="reference" />
+    <attr name="ic_drawer" format="reference" />
+
+    <!-- background -->
+    <attr name="bookmark_windoBackground" format="reference" />
+    <attr name="fab_drawable" format="reference" />
+
+    <!-- theme ID -->
+    <attr name="themeId" format="integer" />
+
+    <!-- PageIndicator style -->
+    <declare-styleable name="PageIndicatorStyle">
+        <attr name="PageIndicatorStyle" format="reference" />
+        <!-- Whether or not the selected indicator fades. -->
+        <attr name="fades" format="boolean" />
+        <!-- Length of the delay to fade the indicator. -->
+        <attr name="fadeDelay" format="integer" />
+        <!-- Length of the indicator fade to transparent. -->
+        <attr name="fadeLength" format="integer" />
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="selectedColor" format="color" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+
+</resources>
