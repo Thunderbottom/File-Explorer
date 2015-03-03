@@ -20,11 +20,8 @@ File Explorer functions as a normal file explorer, as well as Root Explorer (Roo
 See, Although I agree that the design is based on SimpleExplorer, and with full credits [to the maker](https://github.com/DF1E),
 The app has many more features and has been worked on improvements for smoother functioning and better root access. More features and improvements are planned for the coming days, weeks and months. 
 
-<<<<<<< HEAD
+
 Click [here](https://github.com/maysleazy/File-Explorer#changes-in-the-current-version) for changes in the current version
-=======
-Click here for changes in the current version
->>>>>>> origin/master
 
 
 #License
@@ -93,8 +90,7 @@ v. 1.0
 
 #Regarding Issues and Pull Requests
 
-<<<<<<< HEAD
+
 Well, new ideas and bug reports are always welcome :)
-=======
-Well, new ideas and bug reports are always welcome :)
->>>>>>> origin/master
+
+
