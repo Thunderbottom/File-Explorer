@@ -1,6 +1,7 @@
 #File Explorer
 
 File Explorer is based on [SimpleExplorer](https://github.com/DF1E/SimpleExplorer) 
+
 File Explorer functions as a normal file explorer, as well as Root Explorer (Root Required Obviously)
 
 #Why Should You Use File-Explorer?
