@@ -24,7 +24,6 @@ The app has many more features and has been worked on improvements for smoother 
 Click [here](https://github.com/maysleazy/File-Explorer#changes-in-the-current-version) for changes in the current version
 
 
-
 #License
 
 ##maysleazy's License
@@ -91,5 +90,7 @@ v. 1.0
 
 #Regarding Issues and Pull Requests
 
+
 Well, new ideas and bug reports are always welcome :)
+
 
