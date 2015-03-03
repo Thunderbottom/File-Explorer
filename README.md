@@ -12,7 +12,7 @@ File Explorer functions as a normal file explorer, as well as Root Explorer (Roo
 + Open Source (Free Forever? Maybe, Depends on development)
 + User Flexibility
 + Material Design
-+ Responsive
++ Highly Responsive
 
 
 #Soooo, If this is based on SimpleExplorer, What makes it different from that?
