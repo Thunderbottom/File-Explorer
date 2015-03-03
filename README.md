@@ -18,7 +18,9 @@ File Explorer functions as a normal file explorer, as well as Root Explorer (Roo
 #Soooo, If this is based on SimpleExplorer, What makes it different from that?
 
 See, Although I agree that the design is based on SimpleExplorer, and with full credits [to the maker](https://github.com/DF1E),
-The app has many more features and has been worked on improvements for smoother functioning and better root access. More features and improvements are planned for the coming days, weeks and months. 
+The app has many more improvements for smoother functioning and better root access through updated libraries. More features and improvements are planned for the coming days, weeks, months and years until everyone is fully satisfied. Although, Some features may be buggy, and cause crashes. 
+
+If you do face crashes, in any form, Please report an Issue.
 
 
 Click [here](https://github.com/maysleazy/File-Explorer#changes-in-the-current-version) for changes in the current version
