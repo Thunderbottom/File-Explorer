@@ -91,6 +91,7 @@ v. 1.0.1
 + Changed a few root commands.
 + Fixed a major bug where "Change group/owner" for blank folder would result in app crash.
 + Plans to add changelog at first screen after upgrading app.
++ Minor Changes
 
 ````
 
