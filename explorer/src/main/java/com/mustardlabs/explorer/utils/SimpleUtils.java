@@ -225,7 +225,7 @@ public class SimpleUtils {
                     target.delete();
             } else if (target.exists() && !target.delete()) {
                 if (Settings.rootAccess())
-                    com.dnielfe.manager.utils.RootCommands.DeleteFileRoot(path);
+                    RootCommands.DeleteFileRoot(path);
             }
         }
     }
