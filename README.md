@@ -26,6 +26,18 @@ If you do face crashes, in any form, Please report an Issue.
 Click [here](https://github.com/maysleazy/File-Explorer#changes-in-the-current-version) for changes in the current version
 
 
+#Screenshots
+
+
+##Light Theme
+![Light Version Screenshot](https://raw.githubusercontent.com/maysleazy/File-Explorer/master/screenshots/Light.png)
+
+
+##Dark Theme
+![Dark Version Screenshot](https://raw.githubusercontent.com/maysleazy/File-Explorer/master/screenshots/Dark.png)
+
+
+
 #License
 
 
