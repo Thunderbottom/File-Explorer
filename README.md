@@ -78,10 +78,19 @@ v. 1.0
 ````
 + Minor bug fixes. FYI -I Read the code, added some, deleted some to make it better.
 + New Icon, maybe a placeholder for now.
-+ Snappier, more responsive
-+ Changed some files in the root library
++ Snappier, more responsive.
++ Changed some files in the root library.
 + Fixed Crashes on giving root permissions for some Custom Roms.
 + More to come in the future? Hell yeah!
+
+````
+
+v. 1.0.1
+````
+
++ Changed a few root commands.
++ Fixed a major bug where "Change group/owner" for blank folder would result in app crash.
++ Plans to add changelog at first screen after upgrading app.
 
 ````
 
