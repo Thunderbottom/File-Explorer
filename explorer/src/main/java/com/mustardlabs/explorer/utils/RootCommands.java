@@ -2,7 +2,6 @@ package com.dnielfe.manager.utils;
 
 import android.util.Log;
 
-import com.dnielfe.manager.settings.Settings;
 import com.stericson.RootShell.execution.Command;
 import com.stericson.RootShell.execution.Shell;
 import com.stericson.RootTools.RootTools;
@@ -119,21 +118,21 @@ public class RootCommands {
         }
     }
 
-    // Delete file with root
+    // Delete file with root library
     public static void DeleteFileRoot(String path) {
 
-        try {
-            if (!readReadWriteFile())
-                RootTools.remount(path, "rw");
+                        try {
+                        if (!readReadWriteFile())
+                                RootTools.remount(path, "rw");
 
-            if (new File(path).isDirectory()) {
-                runAndWait("rm -rf " + getCommandLineString(path));
-            } else {
-                runAndWait("rm -r " + getCommandLineString(path));
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+                                if (new File(path).isDirectory()) {
+                                runAndWait("rm -rf " + getCommandLineString(path));
+                            } else {
+                                runAndWait("rm -r " + getCommandLineString(path));
+                            }
+                    } catch (Exception e) {
+                            e.printStackTrace();
+                    }
     }
 
     // Create file with root
@@ -264,12 +263,14 @@ public class RootCommands {
         BufferedReader in;
         String[] info = null;
         String line;
+        String dir = "";
 
-        if (!Settings.rootAccess())
-            return null;
+        if (file.isDirectory()) {
+                        dir = "d";
+                    }
 
         try {
-            in = execute("ls -l " + getCommandLineString(file.getAbsolutePath()));
+            in = execute("ls -l" + dir + " " + getCommandLineString(file.getAbsolutePath()));
 
             while ((line = in.readLine()) != null) {
                 info = getAttrs(line);
@@ -322,7 +323,7 @@ public class RootCommands {
         Command c = new Command(0, cmd);
 
         try {
-            Shell.runRootCommand(c);
+            RootTools.getShell(true).add(c);
         } catch (Exception e) {
             e.printStackTrace();
             return null;
