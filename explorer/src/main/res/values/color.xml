@@ -3,7 +3,7 @@
 
     <color name="gray">#aaa</color>
 
-    <!-- ligth theme -->
+    <!-- light theme -->
     <color name="light_bookmark_bg">#fbfbfb</color>
     <color name="light_color_primary">#e0e0e0</color>
     <color name="light_color_primaryDark">#212121</color>
