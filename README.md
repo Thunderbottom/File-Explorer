@@ -41,9 +41,8 @@ Click [here](https://github.com/maysleazy/File-Explorer#changes-in-the-current-v
 #License
 
 
-##D1FE's License
 ````
-Copyright 2013 - 2015 Daniel F.
+Copyright 2015  balzathor
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
